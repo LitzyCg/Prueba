@@ -1,33 +1,121 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<html>
+    	<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Time right now is: </title>
+        <title>Document</title>
+        <link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css">
 </head>
 <body>
-    <link href='https://fonts.googleapis.com/css?family=Ubuntu:500' rel='stylesheet' type='text/css'>
+<script>
+let d = new Date();
+document.body.innerHTML = "<h1>Time right now is:  " + d.getHours() + ":" + d.getMinutes() + ":" + d.getSeconds()
+"</h1>"
+</script>
+      
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	</head>
+	<body>
+	<div id="principal">
+	<header>
+	<div id="logo">
+    <h2 class="titulo">Elena Litzy Cobo Gómez</h2>
+					
+					</div>
+					<form name="formulario" method="post" action="/send.php" enctype="multipart/form-data">
+                        <!-- ¡No olvides el enctype! -->
+                        <!-- Campo de selección de archivo -->
+                        <input type="file" name="adjunto" accept=".pdf,.jpg,.png" multiple onclick="alert('Hola soy un mensaje en botton seleccion tu archivo ya sea pdf o una imagen') " />
+                      </form>
+					</header>
+					
+					<section id="umg">
+					<img src="img/umg.jpg" width="900" height="250">
+			</section>
+			<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Formulario de contacto</title>
 
-<div class="login">
-  <div class="login-header">
-    <h1>Login</h1>
+  
+  </head>
+
+
+<body>  
+   
+
+  <div class="contact_form">
+
+    <div class="formulario">      
+      <h1>Formulario de contacto</h1>
+        <h3>Escríbenos para obtener más información y en breve nos pondremos en contacto contigo, saludos </h3>
+
+
+          <form action="submeter-formulario.php" method="post">       
+
+            
+                <p>
+                  <label for="nombre" class="colocar_nombre">Nombre
+                    <span class="obligatorio">*</span>
+                  </label>
+                    <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+                </p>
+              
+                <p>
+                  <label for="email" class="colocar_email">Email
+                    <span class="obligatorio">*</span>
+                  </label>
+                    <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+                </p>
+            
+                <p>
+                  <label for="telefone" class="colocar_telefono">Teléfono
+                  </label>
+                    <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+                </p>       
+              
+                <p>
+                  <label for="mensaje" class="colocar_mensaje">Mensaje
+                    <span class="obligatorio">*</span>
+                  </label>                     
+                                    <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
+                                </p>                    
+              
+                <button type="submit" name="enviar_formulario" id="enviar" onclick="alert('Gracias por haber completado el formulario, tus datos han sido enviados') " ><p>Enviar </p></button> 
+
+                <p class="aviso">
+                  <span class="obligatorio"> * </span>los campos son obligatorios.
+                </p>          
+            
+          </form>
+    </div>  
   </div>
-  <div class="login-form">
-    <h3>Username:</h3>
-    <input type="text" placeholder="Username"/><br>
-    <h3>Password:</h3>
-    <input type="password" placeholder="Password"/>
-    <br>
-    <input type="button" value="Login" class="login-button"/>
-    <br>
-    <a class="sign-up">Sign Up!</a>
-    <br>
-    <h6 class="no-access">Can't access your account?</h6>
-  </div>
-</div>
-<div class="error-page">
-  <div class="try-again">Error: Try again?</div>
-</div>
+  <script>
+      alert("HOLA SOY UN MENSAJE EXTERNO");
+      </script>
 </body>
 </html>
+
+			<section id="categorias">
+					
+			<section class="uno dos">
+			<img src="img/social.jpg" width="250" height="150" >
+					
+			</section>
+			<section class="uno">
+			<img src="img/web.jpg" width="250" height="150" >
+				
+            
+			</section>
+			
+					</div>
+                    
+					
+                    <script src="nombre-inventado.js" ></script>	
+
+                 
+	<body>
+	<html>
